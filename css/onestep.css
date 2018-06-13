@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,300i,400,600,600i,700,700i');
+* {
+	font-family: Nunito;
+	/*font-weight: 300;*/
+	margin: 0;
+	padding: 0;
+}
+header {
+	margin: 3% auto;
+}
+header h1 a {
+	text-decoration: none;
+	color: black;
+	font-weight: 400;
+	text-align: center;
+}
+header h1 {
+	text-align: center;
+}
+div.top {
+	padding: 0;
+	margin: 2% auto;
+	position: relative;
+	left: 4%;
+}
+div.wrapper {
+	width: 92%;
+	margin: 0 auto;
+}
+figure {
+	width: 50%;
+}
+figure img {
+	width: 80%;
+	margin: 15% auto;
+}
+
+figure video {
+	width: 80%;
+	margin: 15% auto;
+}
+
+section.photo figure img {
+	width: 80%;
+	margin: 7% auto;
+}
+
+
+
+section.white h3.colortext {
+	color: #D0AAF3;
+}
+/*-----NAVIGATIE-----*/
+
+nav ul {
+	top: 10px;
+	z-index: 21;
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	width: 96%;
+}
+nav li {
+	display: inline-block;
+	font-size: 18px;
+	letter-spacing: .075em;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+nav ul li a {
+	color: black;
+	text-decoration: none;
+	margin: 3px 13px;
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 80%;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+nav ul li a:hover {
+	text-decoration: none;
+	color: black;
+}
+nav ul li a::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 1px;
+	background: #9e75c4;
+	transition: width .5s;
+}
+nav ul li a:hover::after {
+	width: 100%;
+}
+nav ul li a:current::after {
+	content: '';
+	display: none;
+}
+nav ul li>ul {
+	display: none;
+}
+nav ul li:hover>ul {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 24px;
+	margin: 0 auto;
+	padding: 0
+}
+header nav li {
+	font-size: 1em;
+}
+nav ul li a:current::after {
+	content: '';
+	display: none;
+}
+.current {
+	color: black;
+	border-bottom: solid black 1px;
+}
+/*---END NAVIGATION---*/
+
+/*-----FONTS-----*/
+
+h2 {
+	font-size: 1.4em;
+	font-weight: 400;
+}
+h3 {
+	font-weight: 300;
+	color: #D0AAF3;
+}
+p {
+	font-weight: 200;
+	margin: 0;
+}
+p.bron {
+	font-size: .8em;
+}
+span.color {
+	font-style: italic;
+	color: #9e75c4;
+}
+span.char {
+	color: #9e75c4;
+}
+figcaption {
+	font-size: .8em;
+}
+/*-----NAVIGATIE-----*/
+
+nav ul {
+	top: 10px;
+	z-index: 21;
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	width: 96%;
+}
+nav li {
+	display: inline-block;
+	font-size: 18px;
+	letter-spacing: .075em;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+nav ul li a {
+	color: black;
+	text-decoration: none;
+	margin: 3px 13px;
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 80%;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+nav ul li a:hover {
+	text-decoration: none;
+	color: black;
+}
+nav ul li a::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 1px;
+	background: #9e75c4;
+	transition: width .5s;
+}
+nav ul li a:hover::after {
+	width: 100%;
+}
+nav ul li a:current::after {
+	content: '';
+	display: none;
+}
+nav ul li>ul {
+	display: none;
+}
+nav ul li:hover>ul {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 24px;
+	margin: 0 auto;
+	padding: 0
+}
+header nav li {
+	font-size: 1em;
+}
+nav ul li a:current::after {
+	content: '';
+	display: none;
+}
+.current {
+	color: black;
+	border-bottom: solid black 1px;
+}
+/*---END NAVIGATION---*/
+
+.description {
+	padding: 4% 0;
+}
+.overview-inner p, .roles-inner p {
+	margin-top: 2%;
+	font-size: 90%;
+}
+#parallaximg {
+	height: 700px;
+}
+.description {
+	width: 100%;
+	float: left;
+}
+.introduction {
+	margin-bottom: 6%;
+}
+.introduction p {
+	/*text-align: center;*/
+	max-width: 60%;
+	margin: 0 auto;
+}
+.overview {
+	width: 60%;
+	float: left;
+}
+.overview-inner {
+	width: 75%;
+	margin: 0 auto;
+}
+.roles-inner {
+	width: 75%;
+	margin: 0 auto;
+}
+.roles {
+	width: 40%;
+	float: left;
+}
+/*---END INTRODUCTION---*/
+
+.pink .white {
+	width: 100%;
+	float: left;
+	margin: 2% 0;
+}
+.pink {
+	background-color: #dec3f7;
+}
+.intro h3 {
+	color: black;
+	/*text-transform: uppercase;*/
+	font-size: 130%;
+	margin: 1.5%;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+.intro p {
+	width: 80%;
+	margin: 0 auto;
+}
+
+figcaption {
+	color: grey;
+	font-size: 80%;
+	width: 60%;
+	margin: 2% .5% 0 0;
+}
+/*ALGEMEEN*/
+
+p {
+	font-weight: 100;
+	color: #545454;
+	font-size: .8em;
+}
+h2 {
+	font-size: 180%;
+	font-weight: 300;
+	text-align: center;
+}
+h3 {
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+}
+
+
+
+/*h4 {
+	color: black;
+	text-transform: uppercase;
+	font-size: 100%;
+	margin: 0;
+	font-weight: 500;
+}
+
+*/
+
+h4 {
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+}
+
+hr {
+	margin: 0 auto 3% auto;
+	border: 0;
+	border-top: 1px solid black;
+	width: 90px;
+}
+.current {
+	color: black;
+	border-bottom: solid black 1px;
+}
+/*-----SECTIONS-----*/
+
+section.white, section.pink {
+	width: 100%;
+	float: left;
+}
+section.white div.intro, section.pink div.intro {
+	width: 55%;
+	float: left;
+}
+section.white figure, section.pink figure {
+	width: 45%;
+	float: left;
+}
+/*---FOOTER---*/
+
+.footer {
+	float: left;
+	background-color: #fcddd4;
+	width: 100%;
+	padding: 2% 0 0;
+}
+
+p.red {
+	color: red;
+	font-size: 1.3em;
+}
+.copyright {
+	width: 100%;
+	float: left;
+	text-align: center;
+	margin-bottom: 0;
+}
+.inner-social {
+	width: 100%;
+	float: left;
+	text-align: center;
+}
+.copyright p {
+	font-size: 80%;
+}
+/*---END FOOTER*---*/
+
+section {
+	/*margin: 5% auto;*/
+	padding: 5% 0;
+}
+
+section.photo {
+	padding: 2% auto;
+}
+span.char {
+	color: #9e75c4;
+	font-size: 1.6em;
+}
+
+section.third {
+	width: 90%;
+	margin: 0 auto;
+}

@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,300,300i,400,600,600i,700,700i');
+
+* {
+	font-family: Nunito;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	margin: 3% auto;
+
+}
+
+header h1 a {
+	text-decoration: none;
+	color: black;
+	font-weight: 400;
+	text-align: center;
+}
+
+
+
+section.small figure.vid {
+	width: 80%;
+	margin: 0 auto;
+}
+
+
+
+
+.red {
+	font-size: 1.3em;
+	color: red;
+}
+
+div.top {
+	padding: 0;
+	margin: 2% auto;
+	position: relative;
+	left: 4%;
+}
+
+div.wrapper {
+	width: 92%;
+	margin: 0 auto;
+}
+
+figure {
+	width: 50%;
+
+}
+
+figure img {
+	width: 50%;
+}
+
+/*-----NAVIGATIE-----*/
+nav ul {
+	top: 10px;
+	z-index: 21;
+	list-style: none;
+	padding: 0;
+	margin: 0 auto;
+	width: 96%;
+	
+}
+
+nav li {
+	display: inline-block;
+	font-size: 18px;
+	letter-spacing: .075em;
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li a {
+	color: black;
+	text-decoration: none;
+	margin: 3px 13px;
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 80%;
+	-o-transition: .5s;
+	-ms-transition: .5s;
+	-moz-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;	
+} 
+
+nav ul li a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+nav ul li a::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 1px;
+	background: #9e75c4;
+	transition: width .5s;
+}
+
+nav ul li a:hover::after {
+	width: 100%;
+}
+
+nav ul li a:current::after {
+	content: '';
+	display: none;
+}
+
+nav  ul li > ul {
+	display: none;
+}
+
+
+nav ul li:hover > ul {
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 100%;
+	top: 24px;
+	margin: 0 auto;
+	padding: 0
+}
+
+header nav li {
+	font-size: 1em;
+}
+
+nav ul li a:current::after {
+	content: '';
+	display: none;
+}
+
+
+.current {
+	color: black;
+	border-bottom: solid black 1px;
+}   
+
+
+/*---END NAVIGATION---*/
+
+
+/*-----FONTS-----*/
+h2 {
+	font-size: 1.4em;
+	font-weight: 400;
+}
+
+h3 {
+	font-weight: 300;
+	color: #D0AAF3;
+}
+
+p {
+	font-weight: 200;
+	margin: 0;
+}
+
+p.bron {
+	font-size: .8em;
+}
+span.color {
+	font-style: italic;
+	color: #9e75c4;
+}
+
+span.char {
+	color: #9e75c4;
+}
+
+figcaption {
+	font-size: .8em;
+}
+
+/*-----BLOCKS-----*/
+section {
+	margin: 4% auto;
+}
+
+
+section.small {
+	width: 80%;
+	margin-bottom: 10%;
+
+}
+
+
+
+section.small p {
+	width: 60%;
+	margin: 0 auto;
+}
+
+section.small figure {
+	min-width: 800px;
+	margin: 0 auto;
+}
+
+
+section.small figure {
+	margin: 1% auto;
+}
+
+
+
+section figure.big {
+	width: 100%;
+}
+
+section figure.big img {
+	width: 60%;
+	margin: 2% auto 0 auto;
+
+
+}
+
+
+
+h1, h2, h3, figure{
+	text-align: center;
+}
+
+p {
+	width: 60%;
+	margin: 0 auto;
+}
+
